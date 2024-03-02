@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #002839;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.icons > * {
+  margin-left: 20px;
+}
+
+.icons i {
+  font-size: 25px;
+  color: white;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+header form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 50px;
+}
+
+header input[type='text'] {
+  width: 400px;
+  padding: 10px;
+  border: 0px solid #ccc;
+  border-radius: 0px;
+}
+
+header button {
+  padding: 10px 20px;
+  height: 35px;
+  background-color: #f4a51c;
+  color: black;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #002e42;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  color: white;
+  display: inline-block;
+  margin-right: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+nav li.dropdown {
+  position: relative;
+}
+
+nav li.dropdown:hover ul {
+  display: block;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #002e42;
+  color: #000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 100%;
+  left: 0;
+}
+
+nav ul ul li {
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+main {
+  padding: 20px;
+}
+
+.smartphone {
+  background-color: white;
+  padding: 20px;
+}
+
+.smartphone h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.smartphone .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.smartphone .produk {
+  width: 25%;
+  margin: 10px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.produk img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.produk-unggulan .produk h3 {
+  margin: 0;
+}
+
+.produk-unggulan .produk p {
+  margin: 50px;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.konfirmasicontainer {
+  width: 700px;
+  height: 700px;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 100px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.konfirmasicontainer h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.upload-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.upload-container h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.file-upload {
+  margin-bottom: 20px;
+}
+
+.file-upload input[type="file"] {
+  display: none;
+}
+
+.file-upload label {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.file-upload label:hover {
+  background-color: #f2f2f2;
+}
+
+.no-file,
+.file-name {
+  display: inline-block;
+  line-height: 30px;
+}
+
+.file-name {
+  color: #999;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+footer {
+  background-color: #002839;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.footer-content {
+  flex-basis: 100%;
+}
+.footer-copyright {
+  flex-basis: 100%;
+  text-align: center;
+}
